@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8408FC0C20EC9AF600C29E5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8408FC0B20EC9AF600C29E5F /* AppDelegate.swift */; };
+		8408FC0E20EC9AF600C29E5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8408FC0D20EC9AF600C29E5F /* ViewController.swift */; };
+		8408FC1120EC9AF600C29E5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8408FC0F20EC9AF600C29E5F /* Main.storyboard */; };
+		8408FC1320EC9B2000C29E5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8408FC1220EC9B2000C29E5F /* Assets.xcassets */; };
+		8408FC1620EC9B2000C29E5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8408FC1420EC9B2000C29E5F /* LaunchScreen.storyboard */; };
+		F790EE82A26787E0DD49AD96 /* Pods_AutoCompletePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F05DCF060E52FF56E83B39 /* Pods_AutoCompletePlaces.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		130427AB380CE9ED14EBF44B /* Pods-AutoCompletePlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoCompletePlaces.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoCompletePlaces/Pods-AutoCompletePlaces.release.xcconfig"; sourceTree = "<group>"; };
+		70F05DCF060E52FF56E83B39 /* Pods_AutoCompletePlaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoCompletePlaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8408FC0820EC9AF600C29E5F /* AutoCompletePlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoCompletePlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8408FC0B20EC9AF600C29E5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8408FC0D20EC9AF600C29E5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8408FC1020EC9AF600C29E5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8408FC1220EC9B2000C29E5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8408FC1520EC9B2000C29E5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8408FC1720EC9B2000C29E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6A7EFA6780FA447F53CC6A2 /* Pods-AutoCompletePlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoCompletePlaces.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoCompletePlaces/Pods-AutoCompletePlaces.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8408FC0520EC9AF600C29E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F790EE82A26787E0DD49AD96 /* Pods_AutoCompletePlaces.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8408FBFF20EC9AF600C29E5F = {
+			isa = PBXGroup;
+			children = (
+				8408FC0A20EC9AF600C29E5F /* AutoCompletePlaces */,
+				8408FC0920EC9AF600C29E5F /* Products */,
+				CE38A602D71FBEDE3E25F8A0 /* Pods */,
+				C215B073FF65292C1B544072 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8408FC0920EC9AF600C29E5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8408FC0820EC9AF600C29E5F /* AutoCompletePlaces.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8408FC0A20EC9AF600C29E5F /* AutoCompletePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				8408FC0B20EC9AF600C29E5F /* AppDelegate.swift */,
+				8408FC0D20EC9AF600C29E5F /* ViewController.swift */,
+				8408FC0F20EC9AF600C29E5F /* Main.storyboard */,
+				8408FC1220EC9B2000C29E5F /* Assets.xcassets */,
+				8408FC1420EC9B2000C29E5F /* LaunchScreen.storyboard */,
+				8408FC1720EC9B2000C29E5F /* Info.plist */,
+			);
+			path = AutoCompletePlaces;
+			sourceTree = "<group>";
+		};
+		C215B073FF65292C1B544072 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70F05DCF060E52FF56E83B39 /* Pods_AutoCompletePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE38A602D71FBEDE3E25F8A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6A7EFA6780FA447F53CC6A2 /* Pods-AutoCompletePlaces.debug.xcconfig */,
+				130427AB380CE9ED14EBF44B /* Pods-AutoCompletePlaces.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8408FC0720EC9AF600C29E5F /* AutoCompletePlaces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8408FC1A20EC9B2000C29E5F /* Build configuration list for PBXNativeTarget "AutoCompletePlaces" */;
+			buildPhases = (
+				F4317D856EB6F3833FC906BC /* [CP] Check Pods Manifest.lock */,
+				8408FC0420EC9AF600C29E5F /* Sources */,
+				8408FC0520EC9AF600C29E5F /* Frameworks */,
+				8408FC0620EC9AF600C29E5F /* Resources */,
+				590F6CFB386E1ECE5E2ECF00 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoCompletePlaces;
+			productName = AutoCompletePlaces;
+			productReference = 8408FC0820EC9AF600C29E5F /* AutoCompletePlaces.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8408FC0020EC9AF600C29E5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					8408FC0720EC9AF600C29E5F = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 8408FC0320EC9AF600C29E5F /* Build configuration list for PBXProject "AutoCompletePlaces" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8408FBFF20EC9AF600C29E5F;
+			productRefGroup = 8408FC0920EC9AF600C29E5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8408FC0720EC9AF600C29E5F /* AutoCompletePlaces */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8408FC0620EC9AF600C29E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8408FC1620EC9B2000C29E5F /* LaunchScreen.storyboard in Resources */,
+				8408FC1320EC9B2000C29E5F /* Assets.xcassets in Resources */,
+				8408FC1120EC9AF600C29E5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		590F6CFB386E1ECE5E2ECF00 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AutoCompletePlaces/Pods-AutoCompletePlaces-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoCompletePlaces/Pods-AutoCompletePlaces-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4317D856EB6F3833FC906BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutoCompletePlaces-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8408FC0420EC9AF600C29E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8408FC0E20EC9AF600C29E5F /* ViewController.swift in Sources */,
+				8408FC0C20EC9AF600C29E5F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8408FC0F20EC9AF600C29E5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8408FC1020EC9AF600C29E5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8408FC1420EC9B2000C29E5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8408FC1520EC9B2000C29E5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8408FC1820EC9B2000C29E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8408FC1920EC9B2000C29E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8408FC1B20EC9B2000C29E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6A7EFA6780FA447F53CC6A2 /* Pods-AutoCompletePlaces.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B57PF3L3YX;
+				INFOPLIST_FILE = AutoCompletePlaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = biipbyte.AutoCompletePlaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8408FC1C20EC9B2000C29E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 130427AB380CE9ED14EBF44B /* Pods-AutoCompletePlaces.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B57PF3L3YX;
+				INFOPLIST_FILE = AutoCompletePlaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = biipbyte.AutoCompletePlaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8408FC0320EC9AF600C29E5F /* Build configuration list for PBXProject "AutoCompletePlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8408FC1820EC9B2000C29E5F /* Debug */,
+				8408FC1920EC9B2000C29E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8408FC1A20EC9B2000C29E5F /* Build configuration list for PBXNativeTarget "AutoCompletePlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8408FC1B20EC9B2000C29E5F /* Debug */,
+				8408FC1C20EC9B2000C29E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8408FC0020EC9AF600C29E5F /* Project object */;
+}
